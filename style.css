@@ -7,21 +7,35 @@ body {
     justify-content: center;
     align-items: center; */
     height: 100vh;
+
+}
+:root{
+    --primary-color: #FFFFFF;
+    --secondary-color: #000000 ;
+}
+
+.dark-theme{
+    background-color:var(--secondary-color) ;
+    color: var(--primary-color);
+}
+i{
+    cursor: pointer;
 }
  .card-container{
-    margin: 100px 0;
+    margin: 100px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 450px;
+    width: 100%;
+  margin-inline:auto;
  }
 .container {
-  
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     padding: 20px;
-    max-width: 400px;
-    width: 100%;
+    
 }
 
 h1 {
