@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>User Information Card</title>
+</head>
+<body>
+    <nav class="flex justify-around py-4 items-center ">
+        <div><a href="#">LOGO</a></div>
+        <ul class="flex gap-x-6 ">
+          <li><a href="#">HOME</a></li>
+              <li><a href="#">ABOUT US</a></li>
+                  <li><a href="#">SERVICES</a></li>
+      
+                      <li><a href="#">FEATURED</a></li>
+                          <li><a href="#">CONTACT US</a></li>
+                         
+        </ul>
+      <div><i class="icon fa-solid fa-sun fa-beat" id="theme-toggle"></i></div>
+      
+          
+    </nav>
+ <div class="card-container">
+    <div class="container">
+        <div id="info-card">
+            <h1>User Information Card</h1>
+            <div id="user-info">
+                <div class="field">
+                    <span class="label">First Name:</span>
+                    <span id="first-name"></span>
+                </div>
+                <div class="field">
+                    <span class="label">Last Name:</span>
+                    <span id="last-name"></span>
+                </div>
+                <div class="field">
+                    <span class="label">Country:</span>
+                    <span id="country"></span>
+                </div>
+                <div class="field">
+                    <span class="label">Phone Number:</span>
+                    <span id="phone-number"></span>
+                </div>
+                <div class="field">
+                    <span class="label">State:</span>
+                    <span id="state"></span>
+                </div>
+                <div class="field">
+                    <span class="label">City:</span>
+                    <span id="city"></span>
+                </div>
+                <div class="field">
+                    <span class="label">Village:</span>
+                    <span id="village"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
